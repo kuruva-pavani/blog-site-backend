@@ -23,7 +23,7 @@ const app = express();
 app.use(upload());
 app.use(express.json({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: process.env.BASE_URL_FRONTEND }));
 
 
 
