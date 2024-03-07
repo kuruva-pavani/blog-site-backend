@@ -2,7 +2,7 @@
 
 [build]
   # Specify the build command (no build step required for Node.js backend)
-  command = "echo 'No build step required'"
+  functions="functions"
 
   # Set the publish directory (where your built files reside)
   publish = "/"
