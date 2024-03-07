@@ -1,0 +1,13 @@
+# netlify.toml
+
+[build]
+  # Specify the build command (no build step required for Node.js backend)
+  command = "echo 'No build step required'"
+
+  # Set the publish directory (where your built files reside)
+  publish = "/opt/build/repo"
+
+# Optional: Declare environment variables (if needed)
+# [build.environment]
+#   VARIABLE_NAME = "your-value"
+#   ANOTHER_VARIABLE = "another-value"
