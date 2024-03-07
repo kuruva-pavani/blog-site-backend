@@ -5,7 +5,7 @@
   command = "echo 'No build step required'"
 
   # Set the publish directory (where your built files reside)
-  publish = "/opt/build/repo"
+  publish = "/"
 
 # Optional: Declare environment variables (if needed)
 # [build.environment]
