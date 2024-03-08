@@ -1,8 +1,7 @@
 # netlify.toml
 
 [build]
-  # Specify the build command (no build step required for Node.js backend)
-  functions="functions"
+  # Specify the build command (no build step required for Node.js backend
 
   # Set the publish directory (where your built files reside)
   publish = "/"
